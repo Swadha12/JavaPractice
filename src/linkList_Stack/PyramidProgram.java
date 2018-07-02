@@ -135,7 +135,7 @@ public class PyramidProgram {
 		 * 
 		 */
 	
-		for(int i=0;i<n;i++){
+/*		for(int i=0;i<n;i++){
 			num=i;
 			for(int j=0;j<=i;j++){
 				
@@ -145,7 +145,103 @@ public class PyramidProgram {
 			}
 			
 			System.out.println();
-		}
+		}*/
+		
+		
+		/*		
+		
+		1		 
+		121
+		12321
+		1234321
+				 * 
+				 * 
+				 * 
+				 * 
+				 
+				for(int i=1;i<=4;i++){
+				int n=1;
+			for(int k=1;k<=2*i-1;k++){
+				if(i>k){
+					System.out.print(n++);
+				}
+				else if(i==k){
+					System.out.print(n);
+				}
+				else{
+					n--;
+					System.out.print(n);
+				}
+			}
+			System.out.println();
+				}
+				
+					*/
+
+				
+		/*				
+			Pattern-2	
+		   * 
+		  * * 
+		 * * * 
+		* * * * 
+		 * * * 
+		  * * 
+		   * 
+				 * 
+				 * 
+				 * 
+						 
+				int space=3;
+				for(int i=1;i<=4;i++){
+					for(int k=1;k<=space;k++){
+						System.out.print(" ");
+					}
+					
+					space--;
+					for(int k=1;k<=i;k++){
+						System.out.print("* ");
+					}
+					System.out.println();
+				}
+				space=1;
+				for(int i=1;i<=3;i++){
+				for(int k=1;k<=space;k++){
+					System.out.print(" ");
+				}
+				space++;
+				for(int k=1;k<=4-i;k++){
+					System.out.print("* ");
+				}
+				System.out.println();
+				}
+				*/
+				
+				/*				
+				Pattern-2	
+			5****
+			54***
+			543**
+			5432*
+			54321
+		 * 
+		*/
+				/*for(int i=1;i<=5;i++){
+					int n=5;
+					for(int k=1;k<=5;k++){
+					if(i>=k){
+						System.out.print(n--);
+					}
+					else{
+						System.out.print("*");
+					}
+					
+					}
+					
+					System.out.println();
+				}*/
+							 
+				
 		
 		
 	}
